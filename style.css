@@ -52,10 +52,6 @@ main img {
   flex: 2;
 }
 
-.form-input {
-  display: flex;
-  justify-content: space-between;
-}
 /* -------  Navigation ------- */
 
 header {
@@ -129,6 +125,11 @@ form button {
   width: 100%;
 }
 
+.new-form .item {
+  display: flex;
+  justify-content:space-between;
+}
+
 /* -------  Footer ------- */
 
 footer {
@@ -165,7 +166,7 @@ footer p {
     align-items: center;
   }
 
-  .form-input .item {
+  .new-form .item {
     display: flex;
     flex: 1 1 auto;
     flex-direction: column;
